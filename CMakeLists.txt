@@ -25,9 +25,5 @@ add_library(microbit
 )
 
 target_link_libraries(microbit
-  mbed-classic
-  nrf51-sdk
-  ble
-  ble-nrf51822
   microbit-dal
 )
